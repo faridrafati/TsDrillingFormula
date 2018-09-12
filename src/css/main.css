@@ -1,1 +1,30 @@
 /* Created by Ali Bigdeli */
+@import url('cdn/bootstrap.min.css');
+
+.content_panel {
+    height: 100%;
+}
+
+.main_panel {
+    height: 100%;
+}
+
+.main_panel_content{
+    height: 100% !important;
+}
+
+.main_div{
+    width: 100% !important; 
+    height: 100%;
+}
+
+.main_body {
+    position : absolute !important;
+    width: 100% !important; 
+    height: 100%;
+}
+
+.panel_view_tree{
+    height: 100%;
+    width: 100%;
+}

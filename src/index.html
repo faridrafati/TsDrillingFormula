@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/cdn/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/cdn/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/cdn/file-explore.css" />
+
+    <script src="js/cdn/jquery.min.js"></script>
+    <script src="js/cdn/bootstrap.min.js"></script>
+    <script src="js/cdn/file-explore.js"></script>
+    <script src="js/main.js"></script>    
 </head>
-<body>
-        <!-- init this part -->
+
+<body class='main_body'>
+    <div class='main_div'>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 content_panel">
+            <div class="panel panel-default main_panel_content">
+                <div class="panel-heading">
+                    List Formulas
+                </div>
+                <div class="panel-body">
+                    <ul id='tree_view' class="panel_view_tree">
+                       <li>
+                           <a href="#">Drilling Formulas</a>
+                       </li> 
+                       <ul>
+                           <li><a href="#seh.html">SEH</a></li>
+                           <li><a href="#bpm.html">BPM</a></li>
+                       </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 main_panel">
+            <div class="panel panel-default main_panel_content">
+                <div class="panel-heading">
+                    View Formulas
+                </div>
+                <div class="panel-body ">
+                    part 2
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

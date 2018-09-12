@@ -1,1 +1,7 @@
-// main.js created by Ali Bigdeli
+
+$(document).ready(function () {
+    $("#tree_view").filetree({
+        collapsed: true,
+        animationSpeed: 'fast'
+    });
+});
