@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -14,7 +14,9 @@
     <script src="js/cdn/jquery.min.js"></script>
     <script src="js/cdn/bootstrap.min.js"></script>
     <script src="js/cdn/file-explore.js"></script>
-    <script src="js/main.js"></script>    
+    <script src="js/main.js"></script>   
+    
+
 </head>
 
 <body class='main_body'>
@@ -29,9 +31,10 @@
                        <li>
                            <a href="#">Drilling Formulas</a>
                        </li> 
-                       <ul>
-                           <li><a href="#seh.html">SEH</a></li>
-                           <li><a href="#bpm.html">BPM</a></li>
+                       <ul> 
+                           <li><a class="click_formula" data-htm="seh.htm" href="#">SEH</a></li>
+                           <li><a class="click_formula" data-htm="bpm.htm" href="#">BPM</a></li>
+                           <li><a class="click_formula" data-htm="about.htm" href="#">About</a></li>
                        </ul>
                     </ul>
                 </div>
@@ -42,12 +45,14 @@
                 <div class="panel-heading">
                     View Formulas
                 </div>
-                <div class="panel-body ">
-                    part 2
+                <div id="id_panel_body" class="panel-body " style="height:100%;overflow:auto">
+                    <iframe id="panel_frame" style="width:100%;height:96%;" src="./htm/about.htm" ></iframe>
                 </div>
             </div>
         </div>
     </div>
+    <div class="panel_footer footer">
+        Developers :<a href="https://github.com/AliBigdeli0">Ali Bigdeli</a>, <a href="https://github.com/faridrafati">Farid Rafati</a>
+    </div>
 </body>
-
 </html>
